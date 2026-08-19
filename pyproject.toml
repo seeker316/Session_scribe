@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "sessionscribe"
+version = "0.1.0"
+description = "Local speech transcription and session summarization tool"
+requires-python = ">=3.12"
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "pyaudio",
+    "torch",
+    "openai-whisper",
+    "textual",
+    "google-genai",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]

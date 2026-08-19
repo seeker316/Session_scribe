@@ -1,0 +1,9 @@
+- Has a class backened controller.
+	- initializes multiprocessing queues (audio, text, status)
+	- starts 
+		- [[capture_process]] a multiprocessing process with args like the audio_queue, status_queue and the shutdown_event.
+		- [[inference_process]] a multiprocessing process with args like the audio_queue, text_queue, status_queue and the shutdown_event.
+		- [[transcript_process]] a multiprocessing 
+	- when the programs exits sends a shutdown event causing all the parallel process to shutdown cleanly
+	- Creates a **session manager** instance. [[session_manager]]
+	- creates the app via **session selector**, with the session manager as an input argument. [[TUI-session_selector]], which returns a session and that is passed to the transcript_process.
