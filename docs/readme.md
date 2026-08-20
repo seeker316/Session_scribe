@@ -1,4 +1,4 @@
-
+# SESSION_SCRIBE
 A local speech-to-text tool for recording work sessions, transcribing them with Whisper, and automatically generating a concise session summary using Gemini.
 
 The application provides a Textual-based terminal UI for managing sessions and monitoring:
