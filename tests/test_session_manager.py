@@ -1,4 +1,4 @@
-from blog_tools.session_manager import SessionManager
+from session_manager import SessionManager
 
 def main():
 

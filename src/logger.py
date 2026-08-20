@@ -3,11 +3,11 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 LOG_DIR = PROJECT_ROOT / "data" / "logs"
-LOG_FILE = LOG_DIR / "blog_tools.log"
+LOG_FILE = LOG_DIR / "session_scribe.log"
 
 
 def setup_logger(
-    name="blog_tools",
+    name="session_scribe",
     level=logging.INFO
 ):
     logger = logging.getLogger(name)

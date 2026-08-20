@@ -19,6 +19,8 @@ dependencies = [
     "google-genai",
 ]
 
+[project.scripts]
+session-scribe = "main:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

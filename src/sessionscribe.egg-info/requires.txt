@@ -1,0 +1,7 @@
+numpy
+scipy
+pyaudio
+torch
+openai-whisper
+textual
+google-genai

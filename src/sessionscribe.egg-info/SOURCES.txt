@@ -1,0 +1,11 @@
+pyproject.toml
+src/sessionscribe.egg-info/PKG-INFO
+src/sessionscribe.egg-info/SOURCES.txt
+src/sessionscribe.egg-info/dependency_links.txt
+src/sessionscribe.egg-info/entry_points.txt
+src/sessionscribe.egg-info/requires.txt
+src/sessionscribe.egg-info/top_level.txt
+tests/test_audio_capture.py
+tests/test_audio_segmenter.py
+tests/test_session_manager.py
+tests/test_summarizer.py

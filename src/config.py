@@ -20,7 +20,7 @@ RMS_UPDATE_INTERVAL = 0.1
 WHISPER_MODEL_NAME = "medium"
 WHISPER_LANGUAGE = "en"
 
-AUDIO_QUEUE_SIZE = 10
+AUDIO_QUEUE_SIZE = 20
 TEXT_QUEUE_SIZE = 20
 STATUS_QUEUE_SIZE = 100
 
@@ -41,7 +41,7 @@ You are summarizing a recorded work session.
 
 Create a concise but useful summary of the session.
 
-Do not invent information that is not present in the transcript.
+Do not invent information that is not present in the transcript amd remove all the thanks for watching phrases.
 
 Use exactly this structure:
 

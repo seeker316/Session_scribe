@@ -100,8 +100,7 @@ pip install pyaudio
 Clone the repository:
 
 ```
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd blog_tools
+git clone https://github.com/seeker316/Session_scribe.git
 ```
 
 Create a virtual environment and activate it:

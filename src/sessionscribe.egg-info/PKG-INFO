@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: sessionscribe
+Version: 0.1.0
+Summary: Local speech transcription and session summarization tool
+Requires-Python: >=3.12
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pyaudio
+Requires-Dist: torch
+Requires-Dist: openai-whisper
+Requires-Dist: textual
+Requires-Dist: google-genai
